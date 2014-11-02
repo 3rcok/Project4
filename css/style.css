@@ -43,7 +43,8 @@ footer {
 footer span { float: right; font-style: italic; }
 
 /* Smartphones (portrait) */
-@media only screen and (max-device-width: 480px) {
-  body { font-size: 12px;}
+@media screen and (max-device-width: 480px) {
+  body { font-size: 2em;}
   header p { padding-left: 4.5em;}
+  @-viewport { width: device-width;}
 }

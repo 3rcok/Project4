@@ -49,3 +49,9 @@ form {
  .container {
   background-color: rgba(240, 60, 60, 0.8);
 }
+/* Smartphones (portrait) */
+@media screen and (max-device-width: 480px) {
+  body { font-size: 2em;}
+  header p { padding-left: 4.5em;}
+  @-viewport { width: device-width;}
+}
